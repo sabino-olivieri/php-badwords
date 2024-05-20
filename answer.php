@@ -3,7 +3,7 @@
     $text = $_GET["text"];
     $taboo = $_GET["taboo"];
     $num_text = strlen($text);
-    $censored_text = str_replace(" ".$taboo." ", " *** ", $text)
+    $censored_text = str_replace(" ".$taboo."", " ***", $text)
 ?>
 
 
